@@ -7,3 +7,18 @@
   height: 50%;
   width: 100%;
 }
+
+@media (max-width:63em){
+  .carouselSize {
+    padding: 0 3.4rem;
+  }  
+}
+
+@media (max-width:50em){
+  .carouselSize {
+    padding: 0 1.4rem;
+  }  
+  .imageSize {
+    height: 75%;
+  }
+}
