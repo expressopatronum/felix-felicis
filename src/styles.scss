@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Playfair+Display:wght@400;500;600&display=swap');
+
+* {
+  
+  font-family: "Playfair Display", serif;
+  // font-family: "Caesar Dressing", cursive;
+}
+
+html {
+  font-size: 62.5%;
+  ::selection { background: #9d8460; color: white }
+  //   overflow-x: hidden;
+}
+
+/* Importing Bootstrap SCSS file. */
+@import "~bootstrap/scss/bootstrap";

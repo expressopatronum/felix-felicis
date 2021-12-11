@@ -1,0 +1,73 @@
+.email-subscribe{
+    margin-top: 8rem;
+}
+
+.containers {
+    max-width: 130rem;
+    padding: 9.6rem 5.4rem;
+    margin: 0 auto;
+    background-image: url(../../../assets/backgroundimage/goat.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50rem;
+  }
+
+  .flex-container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .gridr {
+    display: grid;
+    column-gap: 0.4rem;
+    //   row-gap: 9.6rem;
+  }
+  
+  .grid--2-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .secondary-header{
+    font-size: 1.8rem;
+    margin: 2rem 0 4rem 0;
+    color: #999;
+  }
+
+  .primary-header{
+    font-size: 3rem;
+  }
+
+  .spacing{
+      display: flex;
+      gap: 0.4rem;
+  }
+
+  .join{
+    padding: 2.5rem 5rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    border: none;
+    background-color: #9d8460;
+    color: white;   
+    font-weight: 600;
+    width: 12.6rem;
+  }
+
+  .join:hover{
+      background-color: #333;
+      transition: all 0.5s ease-in-out;
+  }
+
+  .email-address{
+      width: 45rem;
+      border: 1px solid #ccc;
+  }
+
+  input,
+input::-webkit-input-placeholder {
+    font-size: 1.8rem;
+    line-height: 3;
+    padding: 0 1rem;;
+}

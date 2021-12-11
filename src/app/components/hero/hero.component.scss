@@ -1,0 +1,123 @@
+.hero-section{
+  background-color: #f2f2f2;
+}
+
+.containers {
+  max-width: 120rem;
+  padding: 9.6rem 5.4rem;
+  margin: 0 auto;
+}
+
+.gridr {
+  display: grid;
+  column-gap: 9.4rem;
+  //   row-gap: 9.6rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.primary-header {
+  width: 50rem;
+  font-size: 3.6rem;
+  font-family: "Caesar Dressing", cursive;
+}
+
+.grid-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9.4rem;
+}
+
+.sub-header {
+  font-size: 1.8rem;
+  width: 56rem;
+}
+
+.horizontal-line {
+  border: 3px solid #cec2b2;
+  background-color: #cec2b2;
+}
+
+@media (max-width: 85em){
+  .containers {
+    max-width: 100rem;
+    padding: 9.6rem 3.4rem;
+    margin: 0 auto;
+  }
+
+  .primary-header {
+    width: 30rem;
+  }
+
+  .sub-header {
+    font-size: 1.8rem;
+    width: 46rem;
+  }
+}
+
+@media (max-width: 63em){
+  .containers {
+    max-width: 80rem;
+    padding: 9.6rem 3.4rem;
+    margin: 0 auto;
+  }
+
+  .primary-header {
+    font-size: 2.5rem;
+    width: 25rem;
+  }
+
+  .sub-header {
+    font-size: 1.4rem;
+    width: 36rem;
+  }
+
+  .gridr{
+    column-gap: 7rem;
+  }
+}
+
+@media (max-width: 50em){
+  .containers{
+    max-width: 120rem;
+    padding: 9.6rem 5.4rem;
+    margin: 0 auto;
+  }
+
+  .grid-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 2rem;
+  }
+
+  .primary-header {
+    font-size: 2.5rem;
+    width: 35rem;
+    text-align: center;
+  }
+
+  .sub-header {
+    font-size: 1.4rem;
+    width: 46rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 32em){
+  .primary-header {
+    font-size: 2rem;
+    width: 25rem;
+    text-align: center;
+  }
+
+  .sub-header {
+    font-size: 1.2rem;
+    width: 36rem;
+    text-align: center;
+  }
+}

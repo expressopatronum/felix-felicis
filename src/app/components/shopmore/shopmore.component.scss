@@ -1,0 +1,93 @@
+.shop-more-section{
+    margin-top: 8rem;
+}
+
+.containers {
+    max-width: 130rem;
+    padding: 9.6rem 5.4rem;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+  }
+
+  .flex-container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .gridr {
+    display: grid;
+    column-gap: 3.4rem;
+    //   row-gap: 9.6rem;
+  }
+  
+  .grid--2-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+    .secondary-header{
+        font-size: 1.8rem;
+        color: #999;
+    }
+
+    .primary-header{
+        margin: 2rem 0 4rem 0   ;
+        font-size: 3rem;
+    }
+
+  .shop-coffee{
+    padding: 2.5rem 5rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    border: none;
+    background-color: #9d8460;
+    color: white;   
+    font-weight: 600;
+    border-radius: 5px;
+  }
+
+  .shop-coffee:hover{
+      background-color: #333;
+      transition: all 0.5s ease-in-out;
+  }
+
+  .shop-merchandise{
+    padding: 2.5rem 5rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    border: 1px solid #9d8460;
+    background-color: transparent;
+    color: #9d8460;
+    font-weight: 600;
+    border-radius: 5px;
+  }
+
+  .shop-merchandise:hover{
+    border: 1px solid #333;
+    background-color: #333;
+    color: white; 
+    transition: all 0.5s ease-in-out;
+  }
+
+  @media (max-width: 50em){
+    .shop-coffee{
+      padding: 2rem 2rem;
+    }
+
+    .shop-merchandise{
+      padding: 2rem 2rem;
+    }
+  }
+
+  @media (max-width: 32em){
+    .grid--2-cols{
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    .gridr {
+      display: grid;
+      // column-gap: 3.4rem;
+      row-gap: 1.5rem;
+    }
+  }

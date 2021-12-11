@@ -1,0 +1,55 @@
+.navigationbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(15, 15, 15);
+  background: transparent;
+  height: 7.2rem;
+  padding: 8.4rem 15rem;
+  position: relative;
+}
+
+.logo {
+  position: relative;
+  left: 3rem;
+  width: 25rem;
+}
+
+.icon-mobile-nav {
+  font-size: 4rem;
+}
+
+.main-nav-list {
+  font-family: "Playfair Display", serif;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 3.2rem;
+  font-size: 1.8rem;
+}
+
+.main-nav-link {
+  text-decoration: none;
+  color: black;
+}
+
+.basket {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+@media (max-width: 62em) {
+  .main-nav-link {
+    display: none;
+  }
+
+  .navigationbar {
+    padding: 8.4rem 9rem;
+  }
+}
+
+@media (max-width: 46em) {
+  .navigationbar {
+    padding: 8.4rem 5rem;
+  }
+}

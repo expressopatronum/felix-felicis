@@ -1,0 +1,147 @@
+.container {
+    max-width: 120rem !important;
+    padding: 0 3.2rem !important;
+    margin: 0 auto;
+  }
+  
+  .grid {
+    display: grid;
+    column-gap: 6.4rem !important;
+    row-gap: 9.6rem !important;
+  }
+  
+  .footer {
+    padding: 12.8rem 0;
+    // border-top: 1px solid #eee;
+  }
+  
+  .logo {
+    height: 5.2rem;
+  }
+  
+  .footer-heading {
+    font-size: 1.8rem;
+    font-weight: 800;
+    margin-bottom: 4rem;
+    color: black;
+  }
+  
+  .footer-navigation {
+    padding: 0 !important;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+  }
+  
+  .footer-link:link,
+  .footer-link:visited {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #9d8460;
+    transition: all 0.3s;
+  }
+  
+  .logo-col {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-grid {
+    grid-template-columns: 1fr 1fr 1fr 1.5fr;
+  }
+  
+  .copyright {
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: #767676;
+    margin-top: auto;
+  }
+  
+  .footer-link:hover,
+  .footer-link:active {
+    color: #555;
+  }
+  
+  .footer-logo {
+    display: block;
+    margin-bottom: 3.2rem;
+  }
+  
+  .contacts {
+    font-style: inherit;
+    font-size: 1.6rem;
+    line-height: 1.6;
+  }
+  
+  .address {
+    margin-bottom: 2.4rem;
+    color: black;
+  }
+
+  .flex-horizontal{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icon-lg{
+    font-size: 2.5rem;
+  }
+
+  .icon-md{
+    font-size: 2rem;
+    color: #EE4D45;
+  }
+
+  .header-md{
+    font-size: 1.5rem;
+  }
+
+  .align-middle{
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icon-button{
+    border-radius: 200px;
+    border:none;
+    background-color: white;
+    padding: 1rem 1rem;
+  }
+
+  .icon-lg:hover{
+    color: white;
+    transition: all 0.1s ease-in-out;
+  }
+
+  .icon-button:hover {
+    background-color: #9d8460;
+    color: white;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  @media (max-width: 44em) {
+    .footer-grid {
+      grid-template-columns: repeat(6, 1fr);
+    }
+  
+    .nav-col {
+      grid-row: 1;
+      grid-column: span 2;
+      // margin-bottom: 3.2rem;
+    }
+  
+    .logo-col,
+    .address-col {
+      grid-column: span 3;
+    }
+  
+    .logo {
+      height: 3.8rem;
+    }
+  }
+  
